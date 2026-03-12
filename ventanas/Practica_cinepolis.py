@@ -69,7 +69,6 @@ entry_nombre.grid(row=0, column=1, padx=10, pady=5)
 
 tk.Label(ventana1, text="Cantidad Compradores", bg=color_azul, fg="white").grid(row=1, column=0, padx=10, pady=5, sticky="e")
 entry_personas = tk.Entry(ventana1, width=10)
-entry_personas.insert(0, "1")
 entry_personas.grid(row=1, column=1, padx=10, pady=5, sticky="w")
 
 tk.Label(ventana1, text="Tarjeta Cineco", bg=color_azul, fg="white").grid(row=2, column=0, padx=10, pady=5, sticky="e")
